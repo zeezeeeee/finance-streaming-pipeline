@@ -47,6 +47,20 @@ two visualizations
 - An Athena query computes the average daily percentage change between opening and closing price, aggregated to the monthly level per company — returned **396 rows** (66 companies × ~6 months)
 - Results are pulled into a notebook and visualized
 
+## Screenshots
+
+**Lambda execution — 6,600 records streamed successfully:**
+![Lambda execution results](assets/exec_results.png)
+
+**Kinesis stream monitoring:**
+![Kinesis monitor](assets/kinesis_monitor.png)
+
+**S3 output from Firehose:**
+![S3 bucket structure](assets/screenshot_of_s3_bucket.png)
+
+**Athena query results (396 rows):**
+![Athena query results](assets/results.png)
+
 ## Visualizations
 
 **Chart 1 — Average daily % change by company:** a horizontal bar chart ranking all 66 companies from lowest to highest average performance, with a zero reference line separating net-positive from net-negative performers.
